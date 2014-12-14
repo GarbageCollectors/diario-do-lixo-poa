@@ -111,3 +111,8 @@ $('#btn_criarLembrete').click(function(){
 		alert("Lembrete criado com sucesso!");
 	}
 });
+
+if (navigator && navigator.splashscreen && navigator.splashscreen.hide) {
+  console.log('navigator.splashscreen.hide()');
+  navigator.splashscreen.hide();
+}
